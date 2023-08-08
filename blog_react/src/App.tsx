@@ -4,7 +4,7 @@ import './App.css';
 import axios from 'axios';
 import SignUp from './views/Authentication/SignUp';
 import Authentication from './views/Authentication';
-
+// 여기는 react 메인
 function App() {
   // const [connection, setConnection] = useState<string>('');
 
