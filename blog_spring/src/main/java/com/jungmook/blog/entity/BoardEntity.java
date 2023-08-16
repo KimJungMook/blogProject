@@ -6,6 +6,8 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.Date;
+
 
 @Data
 @Builder
@@ -25,7 +27,7 @@ public class BoardEntity {
     private String boardWriterEmail;
     private String boardWriterProfile;
     private String boardWriterNickname;
-    private String boardWriteDate;
+    private Date boardWriteDate;
     private int boardClickCount;
     private int boardLikeCount;
     private int boardCommentCount;
